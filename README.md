@@ -1,1 +1,1 @@
-# famcs-ism-labs
+# famcs-simulation-and-statistical-modeling-labs
