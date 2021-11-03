@@ -3,7 +3,6 @@ import timeit
 from numpy.random import random
 import matplotlib.pyplot as plt
 import pandas as pd
-from typing import Dict
 
 n = 1000
 # коэффициенты сдвига
