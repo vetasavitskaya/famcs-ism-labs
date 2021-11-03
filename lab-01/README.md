@@ -11,7 +11,6 @@
 [`code`](https://github.com/vetasavitskaya/famcs-simulation-and-statistical-modeling-labs/blob/main/lab-01/lab-01-standard-normal_distribution.py)
 
 ```
-mcg:
 -------------------------------------- Compare Time --------------------------------------
 N(0, 1.2) - using the central limit theorem - time : 0.006191792999743484
 N(1, 0.1) - using the central limit theorem - time : 0.006029343000136578
