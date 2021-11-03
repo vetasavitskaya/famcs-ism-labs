@@ -27,7 +27,6 @@ def sampling_using_the_central_limit_theorem(sample_of_realizations_, location, 
     end_time = timeit.default_timer()
     return end_time - start_time
 
-
 # алгоритм основанный на методе функционального преобразования БСВ
 def sampling_using_method_of_functional_transformations(sample_of_realizations_, location, scale, n_):
     start_time = timeit.default_timer()
@@ -41,7 +40,6 @@ def sampling_using_method_of_functional_transformations(sample_of_realizations_,
         sample_of_realizations_.append(location + n2 * scale)
     end_time = timeit.default_timer()
     return end_time - start_time
-
 
 # критерий серий
 def series_criterion(sample_of_realizations_):
@@ -135,13 +133,14 @@ plt.show()
 
 #  проверка точности моделирования с помощью критерия серий
 print("Test 1 - the central limit theorem - N(0, 1.2)")
-#series_criterion(sample_using_the_central_limit_theorem_01)
+
+series_criterion(sample_using_the_central_limit_theorem_01)
 print("Test 2 - the central limit theorem - N(1, 0.1)")
-#series_criterion(sample_using_the_central_limit_theorem_02)
+series_criterion(sample_using_the_central_limit_theorem_02)
 print("Test 3 - the method of functional transformations - N(0, 1.2)")
-#series_criterion(sample_using_functional_transformations_01)
+series_criterion(sample_using_functional_transformations_01)
 print("Test 4 - the method of functional transformations - N(1, 0.1)")
-#series_criterion(sample_using_functional_transformations_02)
+series_criterion(sample_using_functional_transformations_02)
 
 # так как в предыдущем задании лучшие результаты были при использовании алгоритма основанного на методе
 # функционального преобразования БСВ, будем использовать его для генерации выборок во втором задании
