@@ -26,6 +26,7 @@ Test passed !
 Test 2 - the central limit theorem - N(1, 0.1)
 Test passed !
 Test 3 - the method of functional transformations - N(0, 1.2)
+Test passed !
 Test 4 - the method of functional transformations - N(1, 0.1)
 Test passed !
 ----------------------------- "Truncated" Normal Distribution ----------------------------
