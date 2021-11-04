@@ -27,6 +27,7 @@ def sampling_using_the_central_limit_theorem(sample_of_realizations_, location, 
     end_time = timeit.default_timer()
     return end_time - start_time
 
+
 # алгоритм основанный на методе функционального преобразования БСВ
 def sampling_using_method_of_functional_transformations(sample_of_realizations_, location, scale, n_):
     start_time = timeit.default_timer()
@@ -40,6 +41,7 @@ def sampling_using_method_of_functional_transformations(sample_of_realizations_,
         sample_of_realizations_.append(location + n2 * scale)
     end_time = timeit.default_timer()
     return end_time - start_time
+
 
 # критерий серий
 def series_criterion(sample_of_realizations_):
