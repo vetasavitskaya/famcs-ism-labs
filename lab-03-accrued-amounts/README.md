@@ -7,6 +7,7 @@
 ![](https://github.com/vetasavitskaya/famcs-simulation-and-statistical-modeling-labs/blob/main/lab-03-accrued-amounts/image_01.png)
 
 за 80 дней до его погашения с вероятностью 0,2 и в этом случае за 40 дней до его погашения с вероятностью 0,2 и в этом случае 𝑑 ∈ 𝑅 (7.5 %; 9 %).
+
 ![](https://github.com/vetasavitskaya/famcs-simulation-and-statistical-modeling-labs/blob/main/lab-03-accrued-amounts/image_02.png)
 
 По 1000 реализаций 𝑃, вычисленных по формуле, оценить числовые характеристики
