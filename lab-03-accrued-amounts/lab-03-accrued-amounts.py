@@ -31,11 +31,8 @@ def calculate_d(original_amount_p_):  # вычисление дисперсии
 
 
 def calc_discrete_variable(discrete_variable_values_, probabilities_):
-    help_vector_q = [0, probabilities_[0], probabilities_[0] + probabilities_[1], probabilities_[0] +
-                     probabilities_[1] + probabilities_[2]]  # вспомогательный вектор
-
+    help_vector_q = [0, probabilities_[0], probabilities_[0] + probabilities_[1], 1]  # вспомогательный вектор
     base_random_variable = random()
-
     if help_vector_q[0] <= base_random_variable < help_vector_q[1]:
         return discrete_variable_values_[0]
     elif help_vector_q[1] <= base_random_variable < help_vector_q[2]:
