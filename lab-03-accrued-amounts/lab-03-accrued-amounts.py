@@ -7,7 +7,7 @@ days_before_redemption_of_bill = [120, 80, 40]  # дни до погашения
 probabilities = [0.6, 0.2, 0.2]  # вероятности, с которыми может быть учтен в банке
 
 original_amount_p_calculated_values = []  # реализации первоначальной суммы
-section_start, section_end = 200000, 220000
+section_start, section_end = 239800, 243000
 
 list_of_discrete_variable_values_120_d = [0.06, 0.062, 0.064]  # ряд распределения
 list_of_discrete_variable_probabilities_120_d = [0.7, 0.2, 0.1]  # соответствующие вероятности
